@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Tresor</title>
+</head>
+<body>
+    <div id="head-container">
+        <div id="header">
+            Die Zentrale
+        </div>
+        <div id="logo-container">
+            <img id="logo" src="assets/images/ddf_logo.png" alt=""/>
+        </div>
+    </div>
+    <div id="main-container">
+        <div id="main-inner-container">
+            <p class="main-text">
+                Lieber Detektiv, liebe Detektivin, herzlichen Glückwunsch, du wurdest in die Zentrale eingeladen!
+            </p>
+            <p class="main-text">
+                Du musst sie nur herunterladen und installieren und schon kannst auch du Teil der Zentrale werden.
+            </p>
+            <p class="main-text">
+                Dafür benötigst du ca. 120MB freien Speicher auf deinem Handy.
+            </p>
+            <div class="main-button" id="dld-btn">
+                <div class="main-button-text">
+                    Download (APK)
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF">
+                    <path d="M440-800v487L216-537l-56 57 320 320 320-320-56-57-224 224v-487h-80Z"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+    
+    <div id="tresor-container">
+        <div id="tresor-head-container">
+            <div id="tresor-header">
+                Tresor
+            </div>
+        </div>
+        <div id="tresor-main-container">
+            <div id="tresor-inner-container">
+                <p class="main-text">Um hier weiter zu kommen, brauchst du erst einmal einen Zugangscode. Groß- und Kleinschreibung ist dafür egal.</p>
+                <div id="code-input-container">
+                    <input id="code-input" type="text" placeholder="Zugangscode"/>
+                </div>
+                <div id="msg-text"></div>
+                <div class="main-button" id="open-tresor-btn">
+                    <div class="main-button-text">
+                        Öffnen
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
